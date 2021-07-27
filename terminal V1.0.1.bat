@@ -19,6 +19,7 @@ if "%command%"=="" goto run
 if "%command%"=="exit" exit
 if "%command%"=="quit" exit
 if "%command%"=="stop" exit
+if "%command%"=="leave" exit
 if not "%command%"=="" cmd /c %command%
 goto run
 
