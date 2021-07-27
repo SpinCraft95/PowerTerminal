@@ -22,5 +22,4 @@ goto run
 
 :reload
 cls
-timeout 0.3 /nobreak >nul
 goto load
